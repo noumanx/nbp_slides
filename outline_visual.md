@@ -58,12 +58,17 @@ This outline defines the visual scenes for the presentation.
     *   imgs/style_matrix_0.jpg
 
 #### Slide 6: The Architecture (The Solution Structure)
-*   **Layout**: The Container Metaphor.
+*   **Layout**: Exploded View / Cross-Section.
 *   **Scene**:
-    *   **Prompt**: A powerful visual metaphor for the "Generative Kernel". Show a central, perfect sphere made of rigid, structural glass and metal framing (The Container).
-    *   Inside this container is a swirling, colorful, volatile nebula or fluid (The AI/Probability) that is beautiful but chaotic. The container perfectly holds it in shape.
-    *   Text floating next to the structure: "The Generative Kernel: A Deterministic Container for Probabilistic Creativity."
-    *   Three labels point to layers of the sphere: "Layer 1: Deterministic Code", "Layer 2: Probabilistic AI", "Layer 3: Constraints & SOP".
+    *   **Prompt**: A high-end visualization of the "Generative Kernel" architecture, composed of three nested layers of materials.
+    *   **Layer 1 (The Core)**: A glowing, fluid orb of pure light and energy. This represents "Probabilistic AI" (the chaos/creativity). It is vibrant but contained.
+    *   **Layer 2 (The Shell)**: A precise, translucent frosted glass sphere encasing the core. This represents "Constraints and SOPs" (the visual guidelines). It shapes and diffuses the raw AI light into soft, beautiful illumination.
+    *   **Layer 3 (The Frame)**: An outer ring or structural frame made of brushed metal or rigid matte ceramic. This represents "Deterministic Code" (the runner/tools). It holds the glass shell firmly in place, providing stability and structure.
+    *   **Composition**: Centered composition, "exploded" slightly to show the nesting relationships. The Uncertainty (Core) is bound safely inside the Certainty (Frame).
+    *   **Text & Labels**: 
+        *   **Title**: Large, elegant text hovering above: "The Architecture".
+        *   **Subtitle**: Smaller text below or next to the sphere: "The Generative Kernel: A Deterministic Container for Probabilistic Creativity."
+        *   **Labels**: Floating glass labels point to each layer: "1. Probabilistic AI", "2. Constraints & SOP", "3. Deterministic Code".
 *   **Asset**: 
     *   imgs/style_matrix_0.jpg
 
